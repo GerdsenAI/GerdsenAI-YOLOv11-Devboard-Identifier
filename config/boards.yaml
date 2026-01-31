@@ -1,0 +1,295 @@
+# Dev Board Identifier - Board Configuration
+# This file defines all target boards and their data sources
+
+version: "1.0"
+project_name: "devboard-identifier"
+
+# Target classes with metadata and image sources
+boards:
+  # ============== SEEED STUDIO ==============
+  seeed_xiao_esp32s3:
+    display_name: "Seeed XIAO ESP32-S3"
+    manufacturer: "Seeed Studio"
+    processor: "ESP32-S3 (Xtensa LX7 dual-core @ 240MHz)"
+    memory: "8MB Flash, 512KB SRAM"
+    features:
+      - "WiFi 802.11 b/g/n"
+      - "Bluetooth 5.0 LE"
+      - "USB-C native"
+      - "Ultra-compact 21x17.5mm"
+    price_usd: 6.99
+    product_url: "https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html"
+    wiki_url: "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/"
+    image_sources:
+      - "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/xiaoesp32s3.jpg"
+      - "https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/1/-/1-113991114-seeed-studio-xiao-esp32s3-sense-45font.jpg"
+
+  seeed_xiao_rp2040:
+    display_name: "Seeed XIAO RP2040"
+    manufacturer: "Seeed Studio"
+    processor: "RP2040 (Dual-core ARM Cortex-M0+ @ 133MHz)"
+    memory: "2MB Flash, 264KB SRAM"
+    features:
+      - "USB-C native"
+      - "11 digital pins, 4 analog"
+      - "Ultra-compact 21x17.5mm"
+      - "Arduino/MicroPython compatible"
+    price_usd: 5.40
+    product_url: "https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html"
+    wiki_url: "https://wiki.seeedstudio.com/XIAO-RP2040/"
+    image_sources:
+      - "https://files.seeedstudio.com/wiki/XIAO-RP2040/img/102010428_Preview-07.jpg"
+
+  seeed_xiao_nrf52840:
+    display_name: "Seeed XIAO nRF52840"
+    manufacturer: "Seeed Studio"
+    processor: "nRF52840 (ARM Cortex-M4 @ 64MHz)"
+    memory: "1MB Flash, 256KB RAM"
+    features:
+      - "Bluetooth 5.0"
+      - "NFC support"
+      - "Ultra-low power"
+      - "USB-C native"
+    price_usd: 9.90
+    product_url: "https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html"
+    wiki_url: "https://wiki.seeedstudio.com/XIAO_BLE/"
+    image_sources:
+      - "https://files.seeedstudio.com/wiki/XIAO-BLE/102010469_Front-14.jpg"
+
+  seeed_wio_terminal:
+    display_name: "Seeed Wio Terminal"
+    manufacturer: "Seeed Studio"
+    processor: "ATSAMD51 (ARM Cortex-M4F @ 120MHz)"
+    memory: "4MB Flash, 192KB RAM"
+    features:
+      - "2.4in LCD display"
+      - "WiFi + Bluetooth"
+      - "Accelerometer, Mic, Buzzer"
+      - "Grove connectors"
+    price_usd: 35.00
+    product_url: "https://www.seeedstudio.com/Wio-Terminal-p-4509.html"
+    wiki_url: "https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/"
+    image_sources:
+      - "https://files.seeedstudio.com/wiki/Wio-Terminal/img/Wio-Terminal-Wiki.jpg"
+
+  # ============== ARDUINO ==============
+  arduino_uno:
+    display_name: "Arduino Uno R3"
+    manufacturer: "Arduino"
+    processor: "ATmega328P (8-bit AVR @ 16MHz)"
+    memory: "32KB Flash, 2KB SRAM"
+    features:
+      - "14 digital I/O pins"
+      - "6 analog inputs"
+      - "USB-B connector"
+      - "Most popular Arduino"
+    price_usd: 27.60
+    product_url: "https://store.arduino.cc/products/arduino-uno-rev3"
+    wiki_url: "https://docs.arduino.cc/hardware/uno-rev3/"
+    image_sources:
+      - "https://docs.arduino.cc/static/a75d24fa5f1b7e4c5177a6e1bd2ba972/A000066-pinout.png"
+
+  arduino_nano:
+    display_name: "Arduino Nano"
+    manufacturer: "Arduino"
+    processor: "ATmega328 (8-bit AVR @ 16MHz)"
+    memory: "32KB Flash, 2KB SRAM"
+    features:
+      - "Compact breadboard-friendly"
+      - "Mini-USB connector"
+      - "30 pins"
+      - "Same power as Uno"
+    price_usd: 24.90
+    product_url: "https://store.arduino.cc/products/arduino-nano"
+    wiki_url: "https://docs.arduino.cc/hardware/nano/"
+    image_sources:
+      - "https://docs.arduino.cc/static/9834be8db7a1c0e9f77acb1c2f4edf57/A000005-pinout.png"
+
+  arduino_mega:
+    display_name: "Arduino Mega 2560"
+    manufacturer: "Arduino"
+    processor: "ATmega2560 (8-bit AVR @ 16MHz)"
+    memory: "256KB Flash, 8KB SRAM"
+    features:
+      - "54 digital I/O pins"
+      - "16 analog inputs"
+      - "4 UARTs"
+      - "Large projects"
+    price_usd: 48.40
+    product_url: "https://store.arduino.cc/products/arduino-mega-2560-rev3"
+    wiki_url: "https://docs.arduino.cc/hardware/mega-2560/"
+    image_sources:
+      - "https://docs.arduino.cc/static/4c2c70a3c1c30a2ceee3ca8a7ef97e19/A000067-pinout.png"
+
+  # ============== RASPBERRY PI ==============
+  raspberry_pi_4:
+    display_name: "Raspberry Pi 4 Model B"
+    manufacturer: "Raspberry Pi Foundation"
+    processor: "BCM2711 (Quad-core Cortex-A72 @ 1.8GHz)"
+    memory: "2GB/4GB/8GB LPDDR4"
+    features:
+      - "Dual 4K HDMI output"
+      - "USB 3.0 ports"
+      - "Gigabit Ethernet"
+      - "Full Linux computer"
+    price_usd: 55.00
+    product_url: "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"
+    wiki_url: "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    image_sources:
+      - "https://assets.raspberrypi.com/static/raspberry-pi-4-labelled-2857741801afdf1cabeaa58325e07b58.png"
+
+  raspberry_pi_5:
+    display_name: "Raspberry Pi 5"
+    manufacturer: "Raspberry Pi Foundation"
+    processor: "BCM2712 (Quad-core Cortex-A76 @ 2.4GHz)"
+    memory: "4GB/8GB LPDDR4X"
+    features:
+      - "2-3x faster than Pi 4"
+      - "PCIe 2.0 x1"
+      - "Dual 4K60 HDMI"
+      - "RP1 I/O controller"
+    price_usd: 80.00
+    product_url: "https://www.raspberrypi.com/products/raspberry-pi-5/"
+    wiki_url: "https://www.raspberrypi.com/documentation/computers/raspberry-pi-5.html"
+    image_sources:
+      - "https://assets.raspberrypi.com/static/raspberry-pi-5-labelled-702c2059523b0cbe05b6d9ecb9b2b7c5.png"
+
+  raspberry_pi_pico:
+    display_name: "Raspberry Pi Pico"
+    manufacturer: "Raspberry Pi Foundation"
+    processor: "RP2040 (Dual-core Cortex-M0+ @ 133MHz)"
+    memory: "2MB Flash, 264KB SRAM"
+    features:
+      - "26 GPIO pins"
+      - "USB 1.1 device/host"
+      - "Low cost ($4)"
+      - "C/C++/MicroPython"
+    price_usd: 4.00
+    product_url: "https://www.raspberrypi.com/products/raspberry-pi-pico/"
+    wiki_url: "https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html"
+    image_sources:
+      - "https://www.raspberrypi.com/documentation/microcontrollers/images/picow-pinout.svg"
+
+  raspberry_pi_zero_2w:
+    display_name: "Raspberry Pi Zero 2 W"
+    manufacturer: "Raspberry Pi Foundation"
+    processor: "RP3A0 (Quad-core Cortex-A53 @ 1GHz)"
+    memory: "512MB LPDDR2"
+    features:
+      - "WiFi + Bluetooth"
+      - "Mini HDMI"
+      - "Tiny form factor"
+      - "5x faster than Zero"
+    price_usd: 15.00
+    product_url: "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/"
+    wiki_url: "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+    image_sources:
+      - "https://assets.raspberrypi.com/static/6fca68b70f3b85b24920ddbd2b76d587/zero2-hero.png"
+
+  # ============== ESP32 ==============
+  esp32_devkit:
+    display_name: "ESP32-DevKitC"
+    manufacturer: "Espressif"
+    processor: "ESP32 (Xtensa LX6 dual-core @ 240MHz)"
+    memory: "4MB Flash, 520KB SRAM"
+    features:
+      - "WiFi 802.11 b/g/n"
+      - "Bluetooth 4.2 + BLE"
+      - "34 GPIO pins"
+      - "Most common ESP32 board"
+    price_usd: 10.00
+    product_url: "https://www.espressif.com/en/products/devkits/esp32-devkitc"
+    wiki_url: "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html"
+    image_sources:
+      - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/_images/esp32-devkitC-v4-pinout.png"
+
+  esp32_cam:
+    display_name: "ESP32-CAM"
+    manufacturer: "AI-Thinker"
+    processor: "ESP32-S (Xtensa LX6 dual-core @ 240MHz)"
+    memory: "4MB Flash + 4MB PSRAM"
+    features:
+      - "OV2640 camera module"
+      - "MicroSD slot"
+      - "WiFi + Bluetooth"
+      - "Very cheap (~$6)"
+    price_usd: 6.00
+    product_url: "https://www.ai-thinker.com/product/esp32-cam"
+    wiki_url: "https://randomnerdtutorials.com/esp32-cam-ai-thinker-pinout/"
+    image_sources:
+      - "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-pinout-new.png"
+
+  esp32_s3_devkit:
+    display_name: "ESP32-S3-DevKitC"
+    manufacturer: "Espressif"
+    processor: "ESP32-S3 (Xtensa LX7 dual-core @ 240MHz)"
+    memory: "8MB Flash, 512KB SRAM + PSRAM"
+    features:
+      - "WiFi 802.11 b/g/n"
+      - "Bluetooth 5.0 LE"
+      - "USB OTG"
+      - "AI acceleration"
+    price_usd: 12.00
+    product_url: "https://www.espressif.com/en/products/devkits/esp32-s3-devkitc-1"
+    wiki_url: "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html"
+    image_sources:
+      - "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/_images/ESP32-S3_DevKitC-1_pinlayout.png"
+
+  # ============== NVIDIA JETSON ==============
+  jetson_orin_nano:
+    display_name: "Jetson Orin Nano"
+    manufacturer: "NVIDIA"
+    processor: "6-core Arm Cortex-A78AE + Ampere GPU"
+    memory: "4GB/8GB LPDDR5"
+    features:
+      - "Up to 40 TOPS AI"
+      - "PCIe Gen3"
+      - "HDMI 2.1"
+      - "Entry-level Jetson"
+    price_usd: 199.00
+    product_url: "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
+    wiki_url: "https://developer.nvidia.com/embedded/jetson-orin-nano-developer-kit"
+    image_sources:
+      - "https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetson-orin-nano/jetson-orin-nano-devkit.png"
+
+  jetson_orin_nx:
+    display_name: "Jetson Orin NX"
+    manufacturer: "NVIDIA"
+    processor: "8-core Arm Cortex-A78AE + Ampere GPU"
+    memory: "8GB/16GB LPDDR5"
+    features:
+      - "Up to 100 TOPS AI"
+      - "PCIe Gen4"
+      - "Multiple camera inputs"
+      - "Production-ready"
+    price_usd: 399.00
+    product_url: "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
+    wiki_url: "https://developer.nvidia.com/embedded/jetson-modules"
+    image_sources:
+      - "https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetson-orin/jetson-orin-nx-devkit.png"
+
+# Training configuration
+training:
+  model_base: "yolov11n"  # nano for speed, upgrade to 's' or 'm' if needed
+  image_size: 640
+  batch_size: 16
+  epochs: 100
+  patience: 20
+  device: 0
+  half_precision: true
+
+# Augmentation settings
+augmentation:
+  rotation_range: [-15, 15]
+  scale_range: [0.8, 1.2]
+  brightness_range: [-0.2, 0.2]
+  flip_horizontal: true
+  mosaic: true
+  mixup: 0.1
+
+# Deployment configuration
+deployment:
+  confidence_threshold: 0.7
+  nms_threshold: 0.45
+  max_detections: 10
+  tensorrt_precision: "fp16"
