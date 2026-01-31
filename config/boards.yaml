@@ -268,9 +268,29 @@ boards:
     image_sources:
       - "https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetson-orin/jetson-orin-nx-devkit.png"
 
+  # ============== PJRC TEENSY ==============
+  teensy_41:
+    display_name: "Teensy 4.1"
+    manufacturer: "PJRC"
+    processor: "ARM Cortex-M7 @ 600MHz (dual-issue superscalar)"
+    memory: "8MB Flash, 1024KB RAM (512KB tightly coupled)"
+    features:
+      - "Ethernet 10/100 Mbit"
+      - "USB device + host (480 Mbps)"
+      - "Native SD card (4-bit SDIO)"
+      - "55 I/O pins, 35 PWM"
+    price_usd: 31.50
+    product_url: "https://www.pjrc.com/store/teensy41.html"
+    wiki_url: "https://www.pjrc.com/teensy/td_libs.html"
+    image_sources:
+      - "https://www.pjrc.com/store/teensy41_4.jpg"
+      - "https://www.pjrc.com/store/teensy41_4b.jpg"
+      - "https://www.pjrc.com/store/teensy41_2.jpg"
+      - "https://www.pjrc.com/store/teensy41_3.jpg"
+
 # Training configuration
 training:
-  model_base: "yolov11n"  # nano for speed, upgrade to 's' or 'm' if needed
+  model_base: "yolo11n"  # nano for speed, upgrade to 's' or 'm' if needed
   image_size: 640
   batch_size: 16
   epochs: 100
