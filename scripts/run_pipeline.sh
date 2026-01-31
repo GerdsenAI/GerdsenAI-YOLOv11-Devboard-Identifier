@@ -38,7 +38,7 @@ SKIP_SCRAPE=false
 TRAIN_ONLY=false
 DEMO_ONLY=false
 TARGET_IMAGES=100
-MODEL_TYPE="yolov11n"
+MODEL_TYPE="yolo11n"
 EPOCHS=100
 
 # Parse arguments
@@ -75,7 +75,7 @@ while [[ $# -gt 0 ]]; do
             echo "  --skip-scrape     Skip web scraping step"
             echo "  --train-only      Only run training (assume data exists)"
             echo "  --demo            Run demo only (assume model exists)"
-            echo "  --model TYPE      Model type (yolov11n/s/m/l, default: yolov11n)"
+            echo "  --model TYPE      Model type (yolo11n/s/m/l, default: yolo11n)"
             echo "  --epochs N        Training epochs (default: 100)"
             echo "  --target-images N Images per class after augmentation (default: 100)"
             exit 0

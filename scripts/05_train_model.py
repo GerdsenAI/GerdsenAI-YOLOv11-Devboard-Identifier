@@ -7,7 +7,7 @@ Optimized for NVIDIA Jetson deployment.
 
 Usage:
     python 05_train_model.py --data ../dataset/yolo/data.yaml
-    python 05_train_model.py --model yolov11s --epochs 150
+    python 05_train_model.py --model yolo11s --epochs 150
     python 05_train_model.py --resume  # Resume from last checkpoint
 
 Requirements:
@@ -46,7 +46,7 @@ def get_device():
         return 'cpu'
 
 
-def train_model(data_yaml: str, model_name: str = 'yolov11n',
+def train_model(data_yaml: str, model_name: str = 'yolo11n',
                 epochs: int = 100, batch_size: int = 16,
                 img_size: int = 640, project_dir: str = None,
                 resume: bool = False):
@@ -201,8 +201,8 @@ def main():
     parser = argparse.ArgumentParser(description='Train YOLOv11 for dev board identification')
     parser.add_argument('--data', type=str, default='../dataset/yolo/data.yaml',
                         help='Path to data.yaml')
-    parser.add_argument('--model', type=str, default='yolov11n',
-                        choices=['yolov11n', 'yolov11s', 'yolov11m', 'yolov11l', 'yolov11x'],
+    parser.add_argument('--model', type=str, default='yolo11n',
+                        choices=['yolo11n', 'yolo11s', 'yolo11m', 'yolo11l', 'yolo11x'],
                         help='Base model to use')
     parser.add_argument('--epochs', type=int, default=100)
     parser.add_argument('--batch', type=int, default=16)
