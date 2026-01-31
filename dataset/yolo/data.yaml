@@ -1,0 +1,22 @@
+names:
+  0: seeed_xiao_esp32s3
+  1: seeed_xiao_rp2040
+  2: seeed_xiao_nrf52840
+  3: seeed_wio_terminal
+  4: arduino_uno
+  5: arduino_nano
+  6: arduino_mega
+  7: raspberry_pi_4
+  8: raspberry_pi_5
+  9: raspberry_pi_pico
+  10: raspberry_pi_zero_2w
+  11: esp32_devkit
+  12: esp32_cam
+  13: esp32_s3_devkit
+  14: jetson_orin_nano
+  15: jetson_orin_nx
+nc: 16
+path: /home/gerdsenai/Documents/GerdsenAI-YOLOv11-Devboard-Identifier/dataset/yolo
+test: images/test
+train: images/train
+val: images/val
