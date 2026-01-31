@@ -14,9 +14,11 @@ Point a camera at any development board and instantly get identification + specs
 
 ## Quick Start
 
-### 1. Install Dependencies
+### 1. Setup Environment
 
 ```bash
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -134,7 +136,7 @@ python scripts/06_run_inference.py --model models/devboard_best.engine
 2. **Vary backgrounds** - Capture on different surfaces (desk, white paper, etc.)
 3. **Vary angles** - Front, slight rotation, different distances
 4. **Use Roboflow** - For proper bounding box annotation
-5. **Increase model size** - Use `yolov11s` or `yolov11m` if accuracy is low
+5. **Increase model size** - Use `yolo11s` or `yolo11m` if accuracy is low
 
 ## Demo Recording
 
