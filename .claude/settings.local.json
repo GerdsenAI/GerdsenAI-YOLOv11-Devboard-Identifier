@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(code:*)",
+      "Bash(snap list:*)",
+      "Bash(dpkg:*)",
+      "Bash(sudo apt:*)",
+      "Bash(sudo apt install:*)",
+      "Bash(python3:*)",
+      "Bash(xargs:*)",
+      "Bash(curl:*)",
+      "Bash(done)",
+      "WebFetch(domain:www.pjrc.com)",
+      "WebFetch(domain:www.sparkfun.com)"
+    ]
+  }
+}
