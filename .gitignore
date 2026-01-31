@@ -9,6 +9,7 @@ __pycache__/
 .claude/
 .github/
 CLAUDE.md
+.vscode/
 
 # Keep dataset images and structure
 # Keep runs for trained models
