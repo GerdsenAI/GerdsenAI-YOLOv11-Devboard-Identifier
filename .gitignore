@@ -5,6 +5,10 @@ __pycache__/
 *.engine
 *.mp4
 
+# AI agent configurations (local only)
+.claude/
+.github/
+
 # Keep dataset images and structure
 # Keep runs for trained models
 # Keep models directory
