@@ -8,6 +8,7 @@ __pycache__/
 # AI agent configurations (local only)
 .claude/
 .github/
+CLAUDE.md
 
 # Keep dataset images and structure
 # Keep runs for trained models
