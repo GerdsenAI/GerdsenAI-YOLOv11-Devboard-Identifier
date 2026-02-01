@@ -1,15 +1,58 @@
+# Python virtual environment
 venv/
+env/
+ENV/
+
+# Python cache and compiled files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# ML Model files
 *.pt
+*.pth
 *.engine
+*.onnx
+*.tflite
+
+# Media files
 *.mp4
+*.avi
+*.mov
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # AI agent configurations (local only)
 .claude/
 .github/
 CLAUDE.md
-.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.log
 
 # Keep dataset images and structure
 # Keep runs for trained models
