@@ -15,8 +15,9 @@ names:
   13: esp32_s3_devkit
   14: jetson_orin_nano
   15: jetson_orin_nx
-nc: 16
-path: /home/gerdsenai/Documents/GerdsenAI-YOLOv11-Devboard-Identifier/dataset/yolo
+  16: teensy_41
+nc: 17
+path: /sessions/sleepy-zen-einstein/mnt/Sponsored Desktops/Seeed/GerdsenAI-YOLOv11-Devboard-Identifier/scripts/../dataset/yolo
 test: images/test
 train: images/train
 val: images/val
