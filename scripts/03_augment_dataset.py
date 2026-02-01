@@ -29,17 +29,19 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Default augmentation parameters
+# Default augmentation parameters - constrained to avoid too dark/bright
 DEFAULT_CONFIG = {
-    'rotation_range': [-15, 15],
-    'scale_range': [0.85, 1.15],
-    'brightness_range': [0.8, 1.2],
-    'contrast_range': [0.85, 1.15],
-    'saturation_range': [0.8, 1.2],
+    'rotation_range': [-12, 12],
+    'scale_range': [0.9, 1.1],
+    'brightness_range': [0.85, 1.15],  # Reduced from 0.8-1.2
+    'contrast_range': [0.9, 1.1],       # Reduced from 0.85-1.15
+    'saturation_range': [0.85, 1.15],
     'flip_horizontal': True,
     'flip_vertical': False,
-    'gaussian_noise': 0.02,
-    'blur_range': [0, 1],
+    'gaussian_noise': 0.015,            # Reduced noise
+    'blur_range': [0, 0.8],
+    'min_brightness': 30,               # Reject images darker than this
+    'max_brightness': 240,              # Reject images brighter than this
 }
 
 # Background colors for synthetic backgrounds
@@ -59,21 +61,34 @@ class DataAugmenter:
     def __init__(self, config: dict = None):
         self.config = config or DEFAULT_CONFIG
 
+    def _get_edge_color(self, img: Image.Image) -> tuple:
+        """Get average color from image edges for fill."""
+        arr = np.array(img)
+        # Sample from edges
+        top = arr[0, :, :].mean(axis=0)
+        bottom = arr[-1, :, :].mean(axis=0)
+        left = arr[:, 0, :].mean(axis=0)
+        right = arr[:, -1, :].mean(axis=0)
+        avg = (top + bottom + left + right) / 4
+        return tuple(int(c) for c in avg)
+
     def rotate(self, img: Image.Image) -> Image.Image:
-        """Random rotation within range."""
+        """Random rotation within range - uses edge color for fill."""
         angle = random.uniform(*self.config['rotation_range'])
-        return img.rotate(angle, resample=Image.BICUBIC, expand=False, fillcolor=(0, 0, 0))
+        fill_color = self._get_edge_color(img)
+        return img.rotate(angle, resample=Image.BICUBIC, expand=False, fillcolor=fill_color)
 
     def scale(self, img: Image.Image) -> Image.Image:
-        """Random scaling within range."""
+        """Random scaling within range - uses edge color for padding."""
         scale = random.uniform(*self.config['scale_range'])
         w, h = img.size
         new_w, new_h = int(w * scale), int(h * scale)
 
         scaled = img.resize((new_w, new_h), Image.LANCZOS)
 
-        # Pad or crop to original size
-        result = Image.new('RGB', (w, h), (0, 0, 0))
+        # Pad or crop to original size - use edge color instead of black
+        fill_color = self._get_edge_color(img)
+        result = Image.new('RGB', (w, h), fill_color)
         paste_x = (w - new_w) // 2
         paste_y = (h - new_h) // 2
 
@@ -141,8 +156,16 @@ class DataAugmenter:
         # For now, just return original - proper implementation would need segmentation
         return img
 
+    def _validate_brightness(self, img: Image.Image) -> bool:
+        """Check if image brightness is within acceptable range."""
+        arr = np.array(img)
+        avg_brightness = np.mean(arr)
+        min_b = self.config.get('min_brightness', 30)
+        max_b = self.config.get('max_brightness', 240)
+        return min_b <= avg_brightness <= max_b
+
     def augment_single(self, img: Image.Image, intensity: str = 'medium') -> Image.Image:
-        """Apply random augmentations to a single image."""
+        """Apply random augmentations to a single image. Returns None if result is invalid."""
         # Ensure RGB
         if img.mode != 'RGB':
             img = img.convert('RGB')
@@ -166,13 +189,13 @@ class DataAugmenter:
         else:  # heavy
             transforms = [
                 (0.5, self.flip_horizontal),
-                (0.7, self.rotate),
-                (0.5, self.scale),
-                (0.7, self.adjust_brightness),
-                (0.7, self.adjust_contrast),
-                (0.5, self.adjust_saturation),
-                (0.3, self.add_noise),
-                (0.3, self.add_blur),
+                (0.6, self.rotate),
+                (0.4, self.scale),
+                (0.5, self.adjust_brightness),
+                (0.5, self.adjust_contrast),
+                (0.4, self.adjust_saturation),
+                (0.2, self.add_noise),
+                (0.2, self.add_blur),
             ]
 
         result = img.copy()
@@ -182,6 +205,10 @@ class DataAugmenter:
                     result = transform(result)
                 except Exception as e:
                     logger.debug(f"Transform failed: {e}")
+
+        # Validate result brightness
+        if not self._validate_brightness(result):
+            return None  # Signal to caller to retry
 
         return result
 
@@ -219,6 +246,7 @@ def augment_class(args):
             logger.debug(f"Failed to copy {img_path}: {e}")
 
     # Generate augmented versions
+    max_retries = 5  # Prevent infinite loops on problematic images
     while count < target_count:
         # Pick random source image
         src_path = random.choice(images)
@@ -227,7 +255,15 @@ def augment_class(args):
 
             # Vary augmentation intensity
             intensity = random.choice(['light', 'medium', 'medium', 'heavy'])
-            augmented = augmenter.augment_single(img, intensity)
+
+            # Try augmentation with retries if brightness is invalid
+            for retry in range(max_retries):
+                augmented = augmenter.augment_single(img, intensity)
+                if augmented is not None:
+                    break
+            else:
+                # All retries failed, skip this image
+                continue
 
             output_file = output_path / f"{class_name}_{count:04d}.jpg"
             augmented.save(output_file, 'JPEG', quality=95)

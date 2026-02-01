@@ -1,0 +1,9 @@
+path: /home/gerdsenai/Documents/GerdsenAI-YOLOv11-Devboard-Identifier/dataset/yolo_binary
+train: images/train
+val: images/val
+test: images/test
+
+nc: 2
+names:
+  0: teensy_41
+  1: not_teensy

@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files (large, generated)
+dataset/raw/
+dataset/augmented/
+dataset/yolo/images/
+dataset/yolo/labels/
+
+# Model outputs (large)
+runs/
+models/*.pt
+models/*.engine
+models/*.onnx
+*.pt
+*.engine
+*.onnx
+*.pth
+*.tflite
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Video recordings
+*.mp4
+*.avi
+*.mov
+output/
+
+# Environment
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# AI agent local config
+.claude/
+CLAUDE.md

@@ -52,10 +52,13 @@ except ImportError:
 class BoardSpecs:
     """Load and provide board specifications."""
 
-    def __init__(self, config_path: str):
-        with open(config_path, 'r') as f:
-            self.config = yaml.safe_load(f)
-        self.boards = self.config.get('boards', {})
+    def __init__(self, config_path: str = None):
+        self.boards = {}
+        self.config = {}
+        if config_path and Path(config_path).exists():
+            with open(config_path, 'r') as f:
+                self.config = yaml.safe_load(f)
+            self.boards = self.config.get('boards', {})
 
     def get_specs(self, class_name: str) -> dict:
         """Get specifications for a board class."""
@@ -87,7 +90,7 @@ class BoardSpecs:
 class DevBoardInference:
     """Real-time dev board detection and display."""
 
-    def __init__(self, model_path: str, config_path: str,
+    def __init__(self, model_path: str, config_path: str = None,
                  camera_index: int = 0, confidence: float = 0.7,
                  mqtt_broker: str = None):
 
@@ -340,7 +343,7 @@ def main():
     parser = argparse.ArgumentParser(description='Run dev board identification')
     parser.add_argument('--model', type=str, required=True,
                         help='Path to trained model (.pt or .engine)')
-    parser.add_argument('--config', type=str, default='../config/boards.yaml',
+    parser.add_argument('--config', type=str, default=None,
                         help='Path to boards.yaml')
     parser.add_argument('--camera', type=int, default=0,
                         help='Camera index')
@@ -354,8 +357,32 @@ def main():
                         help='Run without display (headless)')
     args = parser.parse_args()
 
+    # Find config file - check multiple locations
     script_dir = Path(__file__).parent
-    config_path = str((script_dir / args.config).absolute())
+    project_dir = script_dir.parent
+    
+    if args.config:
+        config_path = Path(args.config)
+        if not config_path.is_absolute():
+            # Try relative to current dir first, then project dir
+            if not config_path.exists():
+                config_path = project_dir / args.config
+    else:
+        # Default locations to search
+        config_candidates = [
+            project_dir / 'config' / 'boards.yaml',
+            script_dir / '..' / 'config' / 'boards.yaml',
+            Path('config/boards.yaml'),
+        ]
+        config_path = None
+        for candidate in config_candidates:
+            if candidate.exists():
+                config_path = candidate
+                break
+        if config_path is None:
+            config_path = project_dir / 'config' / 'boards.yaml'
+    
+    config_path = str(config_path.absolute())
 
     if not Path(args.model).exists():
         logger.error(f"Model not found: {args.model}")
@@ -363,7 +390,8 @@ def main():
 
     if not Path(config_path).exists():
         logger.error(f"Config not found: {config_path}")
-        sys.exit(1)
+        logger.info("Continuing without board specs...")
+        config_path = None
 
     inference = DevBoardInference(
         model_path=args.model,

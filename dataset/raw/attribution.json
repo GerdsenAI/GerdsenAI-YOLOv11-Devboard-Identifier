@@ -1,0 +1,688 @@
+[
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_ed5c68e0.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/xiaoesp32s3.jpg",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 00:48:52"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_e65b338f.jpg",
+    "source_url": "https://media-cdn.seeedstudio.com/media/catalog/product/cache/bb49d3ec4ee05b6f018e93f896b8a25d/1/-/1-113991114-seeed-studio-xiao-esp32s3-sense-45font.jpg",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 00:48:53"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_e940cabe.png",
+    "source_url": "https://files.seeedstudio.com/wiki/wiki-platform/seeed_white_logo.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:48:57"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_20a36395.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/xiaoesp32s3sense.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:48:58"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_1212d099.png",
+    "source_url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/xiaoesp32s3plus.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:48:59"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_632357d3.png",
+    "source_url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/front-indication.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:00"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_916281bf.png",
+    "source_url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/back-indication.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:01"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_24944597.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/2.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:02"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_67d03320.png",
+    "source_url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/plus_front.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:02"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_2cbc2899.png",
+    "source_url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/plus_back.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:03"
+  },
+  {
+    "class": "seeed_xiao_esp32s3",
+    "filename": "seeed_xiao_esp32s3_3467e78d.png",
+    "source_url": "https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/plus_pinout.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:03"
+  },
+  {
+    "class": "seeed_xiao_rp2040",
+    "filename": "seeed_xiao_rp2040_56026daa.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-RP2040/img/102010428_Preview-07.jpg",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 00:49:06"
+  },
+  {
+    "class": "seeed_xiao_rp2040",
+    "filename": "seeed_xiao_rp2040_e25c4107.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-RP2040/img/xinpin.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:11"
+  },
+  {
+    "class": "seeed_xiao_rp2040",
+    "filename": "seeed_xiao_rp2040_5d11c8f2.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-RP2040/img/xinfront.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:12"
+  },
+  {
+    "class": "seeed_xiao_rp2040",
+    "filename": "seeed_xiao_rp2040_fce54b03.jpg",
+    "source_url": "https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/cover.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:12"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_7b01f821.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/102010469_Front-14.jpg",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 00:49:15"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_ed744e70.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/nrf52840_front.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:20"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_03bdd139.png",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/xiaonrf52840sence.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:20"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_b49ef4ae.png",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/xiaonrf52840plus.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:21"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_cff8851b.png",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/xiaonrf52840senceplus.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:21"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_88c3811e.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/front-pinout-4.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:22"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_24b7a0c6.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/back-pinout-5.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:23"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_6bbb3969.png",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/pinout2.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:23"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_e95382fc.png",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/plus_front.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:24"
+  },
+  {
+    "class": "seeed_xiao_nrf52840",
+    "filename": "seeed_xiao_nrf52840_6fe9dce9.png",
+    "source_url": "https://files.seeedstudio.com/wiki/XIAO-BLE/plus_back.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:24"
+  },
+  {
+    "class": "seeed_wio_terminal",
+    "filename": "seeed_wio_terminal_f5485617.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/Wio-Terminal/img/Wio-Terminal-Wiki.jpg",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 00:49:27"
+  },
+  {
+    "class": "seeed_wio_terminal",
+    "filename": "seeed_wio_terminal_30c3590b.png",
+    "source_url": "https://files.seeedstudio.com/wiki/Wio-Terminal/img/WT-classroom.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:33"
+  },
+  {
+    "class": "seeed_wio_terminal",
+    "filename": "seeed_wio_terminal_89995fe3.png",
+    "source_url": "https://files.seeedstudio.com/wiki/Wio-Terminal/img/WioT-Hardware-OverviewNew.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:33"
+  },
+  {
+    "class": "seeed_wio_terminal",
+    "filename": "seeed_wio_terminal_3359ee5e.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/Wio-Terminal/img/WioT-Pinout.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:34"
+  },
+  {
+    "class": "seeed_wio_terminal",
+    "filename": "seeed_wio_terminal_0b786065.jpeg",
+    "source_url": "https://files.seeedstudio.com/wiki/Wio-Terminal/img/WT-GROVE.jpeg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:35"
+  },
+  {
+    "class": "seeed_wio_terminal",
+    "filename": "seeed_wio_terminal_7629f25b.png",
+    "source_url": "https://files.seeedstudio.com/wiki/Wio-Terminal/img/Wio-Terminal-Powerup.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:35"
+  },
+  {
+    "class": "seeed_wio_terminal",
+    "filename": "seeed_wio_terminal_18d28ea7.jpg",
+    "source_url": "https://files.seeedstudio.com/wiki/Wio-Terminal/img/select_blink.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:36"
+  },
+  {
+    "class": "seeed_wio_terminal",
+    "filename": "seeed_wio_terminal_fc3d4aab.png",
+    "source_url": "https://files.seeedstudio.com/wiki/Wio-Terminal/img/Boardurl.png",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:49:37"
+  },
+  {
+    "class": "arduino_uno",
+    "filename": "arduino_uno_43104ce7.jpg",
+    "source_url": "https://store.arduino.cc/cdn/shop/files/A000066_03.front_934x700.jpg?v=1727098250",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:41"
+  },
+  {
+    "class": "arduino_uno",
+    "filename": "arduino_uno_df053128.jpg",
+    "source_url": "https://store.arduino.cc/cdn/shop/files/A000066_04.back_934x700.jpg?v=1727098250",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:42"
+  },
+  {
+    "class": "arduino_uno",
+    "filename": "arduino_uno_c56eedef.jpg",
+    "source_url": "https://store.arduino.cc/cdn/shop/files/A000066_02.unbox_934x700.jpg?v=1727098250",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:43"
+  },
+  {
+    "class": "arduino_uno",
+    "filename": "arduino_uno_80cd4ede.jpg",
+    "source_url": "https://store.arduino.cc/cdn/shop/files/A000066_01.iso_934x700.jpg?v=1727098250",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:44"
+  },
+  {
+    "class": "arduino_nano",
+    "filename": "arduino_nano_03f632f8.jpg",
+    "source_url": "https://cdn.shopify.com/s/files/1/0438/4735/2471/files/A000005_03.front_934x700.jpg?v=1753434497",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:49"
+  },
+  {
+    "class": "arduino_nano",
+    "filename": "arduino_nano_6979c711.jpg",
+    "source_url": "https://cdn.shopify.com/s/files/1/0438/4735/2471/files/A000005_01.iso_934x700.jpg?v=1753434497",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:50"
+  },
+  {
+    "class": "arduino_nano",
+    "filename": "arduino_nano_afc850da.jpg",
+    "source_url": "https://cdn.shopify.com/s/files/1/0438/4735/2471/files/A000005_02.unbox_934x700.jpg?v=1753434497",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:51"
+  },
+  {
+    "class": "arduino_nano",
+    "filename": "arduino_nano_d7e0de64.jpg",
+    "source_url": "https://cdn.shopify.com/s/files/1/0438/4735/2471/files/A000005_04.back_934x700.jpg?v=1753434497",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:51"
+  },
+  {
+    "class": "arduino_nano",
+    "filename": "arduino_nano_9a790556.jpg",
+    "source_url": "https://cdn.shopify.com/s/files/1/0438/4735/2471/files/A000005_05.box_934x700.jpg?v=1753434497",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:52"
+  },
+  {
+    "class": "arduino_mega",
+    "filename": "arduino_mega_ff9205cf.jpg",
+    "source_url": "https://store.arduino.cc/cdn/shop/files/A000067_00.front_934x700.jpg?v=1727098253",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:56"
+  },
+  {
+    "class": "arduino_mega",
+    "filename": "arduino_mega_41d01e5d.jpg",
+    "source_url": "https://store.arduino.cc/cdn/shop/files/A000067_01.iso_ac4058f0-048a-497d-a924-c5e64ad45dfa_934x700.jpg?v=1727098253",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:57"
+  },
+  {
+    "class": "arduino_mega",
+    "filename": "arduino_mega_55b8f215.jpg",
+    "source_url": "https://store.arduino.cc/cdn/shop/files/A000067_02.back_cd01aa63-0083-4718-949d-b132faf560f8_934x700.jpg?v=1727098253",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:57"
+  },
+  {
+    "class": "arduino_mega",
+    "filename": "arduino_mega_9d30fb2b.jpg",
+    "source_url": "https://store.arduino.cc/cdn/shop/files/A000067_03.unbox_6804911f-5b21-4753-8244-3764bc32eda1_934x700.jpg?v=1727098253",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:58"
+  },
+  {
+    "class": "arduino_mega",
+    "filename": "arduino_mega_b318b73a.jpg",
+    "source_url": "https://store.arduino.cc/cdn/shop/files/A000067_04.box_934x700.jpg?v=1727098253",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:49:58"
+  },
+  {
+    "class": "esp32_devkit",
+    "filename": "esp32_devkit_01217109.jpg",
+    "source_url": "https://www.espressif.com/sites/default/files/banner/esp-devkits-banner3.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:14"
+  },
+  {
+    "class": "esp32_devkit",
+    "filename": "esp32_devkit_724128ce.jpg",
+    "source_url": "https://www.espressif.com/sites/default/files/banner/esp-devkits-banner3-mobile-bg.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:16"
+  },
+  {
+    "class": "esp32_devkit",
+    "filename": "esp32_devkit_e6ff3eab.png",
+    "source_url": "https://www.espressif.com/sites/all/themes/espressif/images/esp32-devkitc/wifi-blue.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:16"
+  },
+  {
+    "class": "esp32_devkit",
+    "filename": "esp32_devkit_cef6f9a9.png",
+    "source_url": "https://www.espressif.com/sites/all/themes/espressif/images/esp32-devkitc/rapid-prototyping.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:17"
+  },
+  {
+    "class": "esp32_devkit",
+    "filename": "esp32_devkit_d69771a5.png",
+    "source_url": "https://www.espressif.com/sites/all/themes/espressif/images/esp32-devkitc/flexible.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:17"
+  },
+  {
+    "class": "esp32_devkit",
+    "filename": "esp32_devkit_8271290a.png",
+    "source_url": "https://www.espressif.com/sites/all/themes/espressif/images/esp32-devkitc/breadboard-friendly.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:18"
+  },
+  {
+    "class": "esp32_devkit",
+    "filename": "esp32_devkit_de70458b.png",
+    "source_url": "https://www.espressif.com/sites/all/themes/espressif/images/esp32-devkitc/amazon-qualified.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:18"
+  },
+  {
+    "class": "esp32_devkit",
+    "filename": "esp32_devkit_d5b7ec9c.jpg",
+    "source_url": "https://www.espressif.com/sites/all/themes/espressif/images/esp32-devkitc/aws-logo.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:18"
+  },
+  {
+    "class": "esp32_cam",
+    "filename": "esp32_cam_07990a5d.png",
+    "source_url": "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-pinout-new.png",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 00:50:23"
+  },
+  {
+    "class": "esp32_cam",
+    "filename": "esp32_cam_373f193c.png",
+    "source_url": "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-pinout-new.png?resize=828%2C368&quality=100&strip=all&ssl=1",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:50:40"
+  },
+  {
+    "class": "esp32_cam",
+    "filename": "esp32_cam_0ebeee1e.png",
+    "source_url": "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-AI-Thinker-schematic-diagram.png?resize=828%2C549&quality=100&strip=all&ssl=1",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:50:40"
+  },
+  {
+    "class": "esp32_cam",
+    "filename": "esp32_cam_ada898c4.jpg",
+    "source_url": "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-Camera-AI-Think-Module-VCC-Power-Pins.jpg?resize=750%2C422&quality=100&strip=all&ssl=1",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:50:41"
+  },
+  {
+    "class": "esp32_cam",
+    "filename": "esp32_cam_512b6312.jpg",
+    "source_url": "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-AI-Thinker-Module-Red-LED-built-in.jpg?resize=750%2C422&quality=100&strip=all&ssl=1",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:50:41"
+  },
+  {
+    "class": "esp32_cam",
+    "filename": "esp32_cam_3e643a77.jpg",
+    "source_url": "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/03/ESP32-CAM-eBook-334.jpg?fit=334%2C334&quality=100&strip=all&ssl=1",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:50:41"
+  },
+  {
+    "class": "esp32_cam",
+    "filename": "esp32_cam_2a5b56eb.jpg",
+    "source_url": "https://randomnerdtutorials.com/wp-content/uploads/2022/03/728x280.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:50:42"
+  },
+  {
+    "class": "esp32_cam",
+    "filename": "esp32_cam_7682848d.jpg",
+    "source_url": "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2017/10/home-automation-sb-img.jpg?fit=400%2C225&quality=100&strip=all&ssl=1",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:50:42"
+  },
+  {
+    "class": "esp32_cam",
+    "filename": "esp32_cam_fcec1242.jpg",
+    "source_url": "https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2017/10/esp8266-sb-img.jpg?fit=400%2C225&quality=100&strip=all&ssl=1",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:50:42"
+  },
+  {
+    "class": "esp32_s3_devkit",
+    "filename": "esp32_s3_devkit_19c8bdad.png",
+    "source_url": "https://www.espressif.com/sites/default/files/dev-board/ESP32-P4-EYE_L_1.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:49"
+  },
+  {
+    "class": "esp32_s3_devkit",
+    "filename": "esp32_s3_devkit_3bb43027.png",
+    "source_url": "https://www.espressif.com/sites/default/files/dev-board/P4%E5%BC%80%E5%8F%91%E6%9D%BF_L.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:50"
+  },
+  {
+    "class": "esp32_s3_devkit",
+    "filename": "esp32_s3_devkit_0c08db45.png",
+    "source_url": "https://www.espressif.com/sites/default/files/dev-board/ESP32-S3-DevKitC-1%20%E5%A4%A7.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:52"
+  },
+  {
+    "class": "jetson_orin_nano",
+    "filename": "jetson_orin_nano_e6372ae8.jpeg",
+    "source_url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy/nv_container/nv_teaser.coreimg.jpeg/1734419985835/jetson-agx-orin-family-v1-2c50-d-2x.jpeg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:58"
+  },
+  {
+    "class": "jetson_orin_nano",
+    "filename": "jetson_orin_nano_0101f737.jpeg",
+    "source_url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy/nv_container/nv_teaser_copy.coreimg.jpeg/1734419986007/jetson-orin-developer-kits-2c50-d-2x.jpeg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:59"
+  },
+  {
+    "class": "jetson_orin_nano",
+    "filename": "jetson_orin_nano_b3109442.jpeg",
+    "source_url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_1336425203/nv_image.coreimg.jpeg/1734419987053/jetson-orin-nano-super-dev-kit-ari.jpeg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:59"
+  },
+  {
+    "class": "jetson_orin_nano",
+    "filename": "jetson_orin_nano_fd9e724d.jpeg",
+    "source_url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_1736846491/nv_image.coreimg.jpeg/1734419987217/jetson-agx-orin-developer-kit-assets-2c50-d-2x.jpeg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:50:59"
+  },
+  {
+    "class": "jetson_orin_nano",
+    "filename": "jetson_orin_nano_b88b5d7a.jpeg",
+    "source_url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_1594721673/nv_container/nv_teaser.coreimg.jpeg/1734419988234/nvidia-jetson-agx-orin-3c33-d-2x.jpeg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:51:00"
+  },
+  {
+    "class": "jetson_orin_nano",
+    "filename": "jetson_orin_nano_c2f041d7.jpeg",
+    "source_url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_1594721673/nv_container/nv_teaser_copy.coreimg.jpeg/1734419988253/nvidia-jetson-orin-nx-3c33-d-2x.jpeg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:51:00"
+  },
+  {
+    "class": "jetson_orin_nano",
+    "filename": "jetson_orin_nano_9d5a487b.jpeg",
+    "source_url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_1594721673/nv_container/nv_teaser_copy_1995786452.coreimg.jpeg/1734419988271/nvidia-jetson-orin-nano-3c33-d-2x.jpeg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:51:00"
+  },
+  {
+    "class": "jetson_orin_nano",
+    "filename": "jetson_orin_nano_4abf78bd.jpeg",
+    "source_url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container/nv_container_copy/nv_teaser.coreimg.jpeg/1734419988667/nvidia-software-ari.jpeg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:51:01"
+  },
+  {
+    "class": "jetson_orin_nano",
+    "filename": "jetson_orin_nano_c3758f57.jpeg",
+    "source_url": "https://www.nvidia.com/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container/nv_container_copy/nv_teaser_copy.coreimg.jpeg/1768975021429/generative-ai-at-edge-ari.jpeg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 00:51:01"
+  },
+  {
+    "class": "jetson_orin_nx",
+    "filename": "jetson_orin_nx_e27d7059.jpg",
+    "source_url": "https://developer.download.nvidia.com/embedded/images/jetsonThor/Jetson_product_tiles_Module_pages-Jetson_Thor-front-v001.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:51:08"
+  },
+  {
+    "class": "jetson_orin_nx",
+    "filename": "jetson_orin_nx_211a18e9.jpg",
+    "source_url": "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetson_agx_orin/Jetson_product_tiles_Module_pages-Jetson_AGX_Orin-ftont-v002.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:51:09"
+  },
+  {
+    "class": "jetson_orin_nx",
+    "filename": "jetson_orin_nx_07a4b362.jpg",
+    "source_url": "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/Jetson_product_tiles_Module_pages-Jetson_Xavier_NX.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:51:09"
+  },
+  {
+    "class": "jetson_orin_nx",
+    "filename": "jetson_orin_nx_25caa58e.jpg",
+    "source_url": "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetsonNano/Jetson_product_tiles_Module_pages-Jetson_Orin_Nano.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:51:10"
+  },
+  {
+    "class": "jetson_orin_nx",
+    "filename": "jetson_orin_nx_bcde196d.jpg",
+    "source_url": "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetsonXavier/Jetson_product_tiles_Module_pages-Jetson_AGX_Xavier.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:51:10"
+  },
+  {
+    "class": "jetson_orin_nx",
+    "filename": "jetson_orin_nx_ee057654.jpg",
+    "source_url": "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetsonNX/Jetson_product_tiles_Module_pages-Jetson_Xavier_NX.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:51:10"
+  },
+  {
+    "class": "jetson_orin_nx",
+    "filename": "jetson_orin_nx_3654303f.jpg",
+    "source_url": "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetsontx2-nx/Jetson_product_tiles_Module_pages-Jetson_TX2_NX-front_left.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:51:10"
+  },
+  {
+    "class": "jetson_orin_nx",
+    "filename": "jetson_orin_nx_9da54f29.jpg",
+    "source_url": "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetsonNano/Jetson_product_tiles_Module_pages-Jetson_Nano.jpg",
+    "source_type": "wiki",
+    "timestamp": "2026-01-31 00:51:11"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_546b451f.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_1.jpg",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 18:49:09"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_df3fad43.jpg",
+    "source_url": "https://cdn-shop.adafruit.com/970x728/4622-06.jpg",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 18:49:17"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_cab2b742.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_card11a_rev3.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:30"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_fd7010a6.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_card11b_rev4.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:31"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_7703e077.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_sdcard_pinout.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:31"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_be87a391.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_qspi_pinout.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:32"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_8633d5ca.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_pt8211.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:32"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_5ceae8e3.jpg",
+    "source_url": "https://www.pjrc.com/teensy/td_libs_OctoWS2811_4.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:33"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_310f66a6.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_shiftpwm.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:33"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_6107b34f.png",
+    "source_url": "https://www.pjrc.com/store/teensy40_cpu_speed_menu.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:34"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_8f339189.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_vbat_coin_cell.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:34"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_8680d415.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_memory.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:34"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_66ecfd11.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_teensy_loader.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:35"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_e80952e0.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_red_led.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:35"
+  }
+]
