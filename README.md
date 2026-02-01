@@ -79,17 +79,32 @@ python scripts/06_run_inference.py --model models/devboard_best.pt
 - Jetson Orin Nano
 - Jetson Orin NX
 
+### PJRC
+- Teensy 4.1
+
 ## Pipeline Scripts
 
-| Script | Purpose |
-|--------|---------|
-| `01_scrape_images.py` | Collect images from web |
-| `02_manual_capture.py` | Webcam capture interface |
-| `03_augment_dataset.py` | Data augmentation |
-| `04_prepare_yolo_dataset.py` | Convert to YOLO format |
-| `05_train_model.py` | Train YOLOv11 |
-| `06_run_inference.py` | Real-time detection |
-| `run_pipeline.sh` | Master automation script |
+| Script | What It Does |
+|--------|--------------|
+| `01_scrape_images.py` | Downloads board images from manufacturer websites (PJRC, Adafruit, SparkFun) |
+| `02_manual_capture.py` | Opens webcam to capture your own photos of boards you have |
+| `03_augment_dataset.py` | Creates variations of images (rotated, brighter, flipped) to expand dataset |
+| `04_prepare_yolo_dataset.py` | Organizes images into train/val/test folders with YOLO label format |
+| `05_train_model.py` | Trains YOLOv11 on your dataset, saves best model weights |
+| `06_run_inference.py` | Runs live detection via webcam, shows board name + specs |
+| `scrape_with_firecrawl.py` | Uses Firecrawl API to scrape JS-rendered retailer pages |
+
+### Why Augmentation?
+
+16 images isn't enough to train a robust model. Augmentation creates variations:
+
+- **Rotation** - Boards won't always be perfectly aligned
+- **Brightness/Contrast** - Different lighting conditions
+- **Scaling** - Different distances from camera
+- **Flipping** - Mirrors the image horizontally
+- **Noise** - Simulates lower quality cameras
+
+From 16 originals, augmentation can generate 100+ training samples, helping the model generalize better.
 
 ## Configuration
 
