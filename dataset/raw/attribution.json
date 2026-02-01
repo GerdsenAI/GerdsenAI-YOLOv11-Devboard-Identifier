@@ -586,5 +586,103 @@
     "source_url": "https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetsonNano/Jetson_product_tiles_Module_pages-Jetson_Nano.jpg",
     "source_type": "wiki",
     "timestamp": "2026-01-31 00:51:11"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_546b451f.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_1.jpg",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 18:49:09"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_df3fad43.jpg",
+    "source_url": "https://cdn-shop.adafruit.com/970x728/4622-06.jpg",
+    "source_type": "direct",
+    "timestamp": "2026-01-31 18:49:17"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_cab2b742.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_card11a_rev3.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:30"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_fd7010a6.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_card11b_rev4.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:31"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_7703e077.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_sdcard_pinout.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:31"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_be87a391.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_qspi_pinout.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:32"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_8633d5ca.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_pt8211.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:32"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_5ceae8e3.jpg",
+    "source_url": "https://www.pjrc.com/teensy/td_libs_OctoWS2811_4.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:33"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_310f66a6.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_shiftpwm.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:33"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_6107b34f.png",
+    "source_url": "https://www.pjrc.com/store/teensy40_cpu_speed_menu.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:34"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_8f339189.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_vbat_coin_cell.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:34"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_8680d415.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_memory.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:34"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_66ecfd11.png",
+    "source_url": "https://www.pjrc.com/store/teensy41_teensy_loader.png",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:35"
+  },
+  {
+    "class": "teensy_41",
+    "filename": "teensy_41_e80952e0.jpg",
+    "source_url": "https://www.pjrc.com/store/teensy41_red_led.jpg",
+    "source_type": "product_page",
+    "timestamp": "2026-01-31 18:49:35"
   }
 ]

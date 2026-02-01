@@ -14,3 +14,4 @@ esp32_cam
 esp32_s3_devkit
 jetson_orin_nano
 jetson_orin_nx
+teensy_41
