@@ -1,33 +1,67 @@
-# Python virtual environment
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
 venv/
 env/
 ENV/
+.venv/
 
-# Python cache and compiled files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 
-# ML Model files
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files (large, generated)
+dataset/raw/
+dataset/augmented/
+dataset/yolo/images/
+dataset/yolo/labels/
+
+# Model outputs (large)
+runs/
+models/*.pt
+models/*.engine
+models/*.onnx
 *.pt
-*.pth
 *.engine
 *.onnx
+*.pth
 *.tflite
 
-# Media files
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Video recordings
 *.mp4
 *.avi
 *.mov
+output/
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# Environment variables
+# Environment
 .env
 .env.local
 
@@ -35,25 +69,7 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
-.tox/
 
-# IDE configurations
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# AI agent configurations (local only)
+# AI agent local config
 .claude/
-.github/
 CLAUDE.md
-
-# OS-specific
-.DS_Store
-Thumbs.db
-*.log
-
-# Keep dataset images and structure
-# Keep runs for trained models
-# Keep models directory
