@@ -92,7 +92,6 @@ python scripts/06_run_inference.py --model models/devboard_best.pt
 | `04_prepare_yolo_dataset.py` | Organizes images into train/val/test folders with YOLO label format |
 | `05_train_model.py` | Trains YOLOv11 on your dataset, saves best model weights |
 | `06_run_inference.py` | Runs live detection via webcam, shows board name + specs |
-| `scrape_with_firecrawl.py` | Uses Firecrawl API to scrape JS-rendered retailer pages |
 
 ### Why Augmentation?
 
