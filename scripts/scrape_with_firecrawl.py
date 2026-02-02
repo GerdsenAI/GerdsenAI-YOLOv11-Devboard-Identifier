@@ -21,7 +21,7 @@ from PIL import Image
 from io import BytesIO
 
 # Firecrawl API
-FIRECRAWL_API_KEY = os.environ.get('FIRECRAWL_API_KEY', 'REMOVED_API_KEY')
+FIRECRAWL_API_KEY = os.environ.get('FIRECRAWL_API_KEY')
 FIRECRAWL_API_URL = "https://api.firecrawl.dev/v1"
 
 # Output directory
