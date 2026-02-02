@@ -154,7 +154,7 @@ python scripts/06_run_inference.py --model models/devboard_best.engine
 
 ## Demo Recording
 
-For Seeed certification demo:
+For Seeed Studio demo:
 
 ```bash
 python scripts/06_run_inference.py \
